@@ -42,13 +42,6 @@ sudo ufw delete deny 23
 sudo ufw status numbered
 ✅ Expected Result: Only port 22 should be allowed
 
-📸 Screenshots (Attach Separately)
-- Enabling UFW
-- Blocking port 23
-- Telnet test result
-- Allowing port 22
-- Final firewall status
-
 🧾 Summary
 This task demonstrates basic firewall configuration using UFW. Port 23 (Telnet) was blocked to prevent insecure access and verified with Telnet/Netcat tools. SSH (port 22) was allowed for secure remote access. UFW rules filter incoming traffic based on specified ports, reducing system exposure and enhancing network security.
 
